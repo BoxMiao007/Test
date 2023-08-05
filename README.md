@@ -1,4 +1,4 @@
-[![GitHub](https://img.shields.io/github/license/boxmiao2486/Trackers_List?logo=github&color=blue)](https://github.com/boxmiao2486/Trackers_List/blob/main/LICENSE)
+[![GitHub](https://img.shields.io/github/license/boxmiao2486/Trackers_List?logo=github&color=blue)]([https://github.com/boxmiao2486/Trackers_List/blob/main/LICENSE](https://raw.githubusercontent.com/boxmiao2486/Trackers_List/main/LICENSE))
 # Trackers_List
 **Personal use**
 ### Tracker Source
