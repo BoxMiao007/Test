@@ -19,11 +19,13 @@ fi
 # 使用 pacstrap 在 /mnt 目录下初始化密钥环并安装软件包
 pacstrap -K /mnt base base-devel dhcpcd linux-firmware networkmanager systemd-networkd systemd-resolvconf bluez bluez-utils vim nano git zsh openssh ntfs-3g reflector amd-ucode wireplumber alsa-utils man-db man-pages texinfo noto-fonts noto-fonts-cjk noto-fonts-emoji gtkmm3 --noconfirm
 
+cd /
+
 # 启用必要的服务
-arch-chroot /mnt systemctl enable NetworkManager 
-arch-chroot /mnt systemctl enable bluetooth
+arch-chroot systemctl enable NetworkManager 
+arch-chroot systemctl enable bluetooth
 
 # 更新 archinstall 工具
-arch-chroot /mnt pacman -Sy archinstall --noconfirm
+arch-chroot pacman -Sy archinstall --noconfirm
 
 echo "success"
