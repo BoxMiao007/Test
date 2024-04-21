@@ -10,10 +10,6 @@ sed -i 's/^#ParallelDownloads = 5/ParallelDownloads = 5/' /etc/pacman.conf
 # 更新系统密钥环
 pacman -Sy archlinux-keyring --noconfirm
 
-# 启用必要的服务
-sudo systemctl enable NetworkManager 
-sudo systemctl enable bluetooth
-
 # 更新 archinstall 工具
 sudo pacman -Sy archinstall --noconfirm
 
